@@ -1,6 +1,6 @@
-#get '/' do
- #   File.read(File.join('app/views', 'index.html'))
-#end
+# get '/' do
+#    File.read(File.join('app/views', 'index.html'))
+# end
 
 def humanized_time_ago(time_ago_in_minutes)
     if time_ago_in_minutes >= 60

@@ -1,0 +1,27 @@
+div {
+    color: green;
+    font-size: x-large;
+    font-family: 'Roboto', sans-serif;
+    border: 5px solid orange;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: yellow;
+    width: 33%;
+  }
+  
+  div img {
+    margin: 0% 0% 5% 19%;
+    height: 50%;
+    width: 65%;
+  }
+  
+  h1 {
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+  
+  p {
+    margin-left: 38%;
+  }
