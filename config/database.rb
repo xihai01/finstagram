@@ -10,7 +10,7 @@ if Sinatra::Application.development?
     database: "db/db.sqlite3"
   }
 else
-  db_url = 'postgres://[your_postgres_url here]'
+  db_url = 'postgres://eetamzdtdjtvuu:3ea08b171b323a3c8018c98e762a95ef768c0035797e51a6fe3fcdc89cc27f55@ec2-54-243-92-68.compute-1.amazonaws.com:5432/de2altdnnbm2l4'
   db = URI.parse(ENV['DATABASE_URL'] || db_url)
   set :database, {
     adapter: "postgresql",
